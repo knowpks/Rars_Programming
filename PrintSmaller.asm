@@ -16,7 +16,7 @@
 	
 		beq zero, zero, exit
 		# else: print t2
-print:	addi a0, t1, 0
+print:		addi a0, t1, 0
 		addi a7, zero, 1
 		ecall	
 	
